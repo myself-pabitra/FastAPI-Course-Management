@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coursemanagerfastapi"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <pabitrapandit2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+pydantic = {extras = ["email"], version = "^2.5.2"}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
